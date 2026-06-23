@@ -2,3 +2,5 @@ logs/
 .venv/
 catboost_info/
 __pycache__/
+artifacts/
+*.pyc
