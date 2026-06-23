@@ -1,0 +1,10 @@
+Metadata-Version: 2.4
+Name: academic-performance-prediction
+Version: 1
+Author: Anand
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: seaborn
+Requires-Dist: scikit-learn
+Dynamic: author
+Dynamic: requires-dist
