@@ -40,6 +40,14 @@ def save_json(file_path, obj):
         raise CustomException(e, sys)
 
 
+def load_obj(file_path):
+    try:
+        with open(file_path, "rb") as f:
+            return pickle.load(f)
+    except Exception as e:
+        raise CustomException(e, sys)
+
+
 def evaluate_model(X_train, X_test, y_train, y_test, models, params):
 
     try:
